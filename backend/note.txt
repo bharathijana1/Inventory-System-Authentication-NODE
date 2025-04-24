@@ -1,0 +1,24 @@
+Install the required npm packages:
+---------------------------------
+
+npm install express mongoose dotenv cors jsonwebtoken 
+
+0r
+
+npm i mongoose
+npm i express
+npm i dotenv
+npm i cors
+npm i jsonwebtoken
+npm i nodemon -D
+
+Modify package.json to include a script for development:
+--------------------------------------------------------
+
+"scripts": {
+    "dev": "nodemon Index.js",
+  },
+
+Run the project in development mode:
+------------------------------------
+npm run dev
