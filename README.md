@@ -95,52 +95,6 @@ Replace with your actual MongoDB URI and secret key.
 
 ---
 
-## 🧚️ Testing with Postman
-
-A Postman Collection is included to test all API endpoints.
-
-### Steps:
-1. Open Postman.
-2. Test the following:
-
-- **Register/Login** for JWT
-- **Add Token** to Authorization: `Authorization: Bearer <token>`
-- Perform operations by role
-
----
-
-## ✅ Example Requests
-
-### Register
-```bash
-POST /api/register
-```
-```json
-{
-  "name": "customer11",
-  "email": "customer11@gmail.com",
-  "password": "customer11"
-}
-```
-
-### Login
-```bash
-POST /api/login
-```
-```json
-{
-  "email": "admin@gmail.com",
-  "password": "admin"
-}
-```
-
-### Buy Product
-```bash
-POST /api/products/:id/sell
-Headers:
-Authorization: Bearer <your_token>
-```
----
 ## 🧪 API Testing with Postman – With Examples
 ### 🔐 1. Register as Customer
 #### : POST
