@@ -67,8 +67,8 @@ Replace with your actual MongoDB URI and secret key.
 
 ```json
 {
-  "email": "admin@example.com",
-  "password": "admin123"
+  "email": "admin@gmail.com",
+  "password": "admin"
 }
 ```
 
